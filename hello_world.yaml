@@ -1,0 +1,6 @@
+- name: ansible hello world example
+  hosts: localhost
+  tasks:
+    - name: Say hello
+      debug: 
+        msg: "Hello world"
